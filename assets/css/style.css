@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(44, 62, 142);
+}
+
+h1 {
+    color : white;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.posts_container {
+    width: 800px;
+    margin: 2rem auto;   
+}
+
+.post {
+    background-color: white;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+}
+
+.user_image {
+    border-radius: 50%;
+}
+
+.post_header {
+    display: flex;
+    padding: 0.8rem 1rem 0 1rem;
+}
+
+.text_info {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user_name > h4 {
+    color: rgba(0, 0, 0, 0.852);
+    font-size: 14px;
+}
+
+.date > p {
+    color: rgba(108, 108, 108, 0.824);
+    font-size: 10px;
+}
+
+.post_main {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.post_main > p {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.likes_button {
+    display: flex;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+.likes_button > a {
+   text-decoration: none;
+   color: rgb(68, 59, 59);
+   font-size: 12px;
+   font-weight: bolder;
+   margin-left: 0.3rem;
+   opacity: 0.8;
+}
+
+.likes_button > i {
+    color: rgb(68, 59, 59);
+    font-size: 12px;
+    opacity: 0.8;
+ }
+
+ .likes_counter > p {
+    text-decoration: none;
+    color: rgb(68, 59, 59);
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 0.3rem;
+    opacity: 0.8;
+    margin-top: 1rem;
+    margin-right: 3rem;
+ }
